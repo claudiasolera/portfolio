@@ -1,0 +1,18 @@
+{
+    "nombre" : "Claudia Solera Solana",
+    "profesion": "Estudiante de GCFS de Desarrollo de Aplicaciones Web",
+    "bio": "Entusiadmada por crear soluciones digitales funcionales y atractivas mientras sigo aprendiendo y mejorando en el mundo del desarrollo web",
+    "experiencia": [
+        {
+            "nombre" : "Empresa1",
+            "descripcion" : "Trabjé mucho",
+            "fecha" : "12/12/2024 - 12/12/2025"
+        },
+        {
+            "nombre" : "Empresa2",
+            "descripcion" : "Trabajé mucho",
+            "fecha" : "12/12/2022 - 12/12/2023"
+        }
+    ],
+    "habilidades": ["Java","MySQL","Office","Inglés"]
+}
