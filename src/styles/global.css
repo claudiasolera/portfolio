@@ -1,5 +1,77 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f5d7f2;
+}
+
 section {
-    max-width: 200px;
+    max-width: 900px;
     margin-right: auto;
     margin-left: auto;
+}
+.hero{
+    display:flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(68, 97, 131);
+    color: white;
+    height:fit-content;
+    border-radius: 32px;
+}
+.nombre{
+    margin-left: 0px;
+    font-size: 60px;
+    line-height: 50%;
+}
+.profesion{
+    margin-left: 0px;
+    font-size: 30px;
+    line-height: 50%;
+}
+.bio{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+}
+.experiencia{
+    padding: 16px;
+    border-radius: 30px;
+    background-color: #917395;
+    margin-bottom: 16px;
+    color:#faf9fa;
+    line-height: 12px;
+}
+.exp-nombre{
+    font-size: larger;
+    font-weight: bold;
+    color: #37143b;
+}
+.exp-descripcion{
+
+}
+.exp-fecha{
+
+}
+.envoltura-experiencia{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.habilidad{
+    padding: 16px;
+    border-radius: 30px;
+    background-color: #917395;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    color:#ffffff;
+}
+.habilidad p{
+    width:fit-content;
+    margin: 0px;
+}
+.envoltura-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
