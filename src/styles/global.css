@@ -7,8 +7,10 @@ section {
     max-width: 900px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 84px;
 }
 .hero{
+    margin-top: 84px;
     display:flex;
     padding: 20px;
     flex-direction: column;
@@ -18,7 +20,7 @@ section {
     color: white;
     height:fit-content;
     border-radius: 32px;
-    border-top: 10px;
+
 }
 .nombre{
     margin-left: 0px;
@@ -45,38 +47,48 @@ section {
     color:#322d33;
 }
 .proyecto{
+    color:rgb(91, 121, 155);
+    text-decoration: underline;
+    text-decoration-color: rgb(83, 119, 161);
     padding:16px;
     background-color: rgb(236,236,236);
     border-radius: 16px;
     margin-bottom: 16px;
 }
 .proyecto:hover{
-    background-color: rgb(206,206,206);
+    color:#322d33;
+    text-decoration: underline;
+    text-decoration-color: #322d33;
+    background-color: rgb(218, 215, 215);
 }
+
 .experiencia{
     padding: 16px;
     border-radius: 30px;
     background-color: #917395;
     margin-bottom: 16px;
-    color:#faf9fa;
     line-height: 12px;
     border: 2px solid;
     border-color: #37143b;
 }
 .exp-nombre{
-    font-size: larger;
+    font-size:larger;
     font-weight: bold;
     color: #37143b;
 }
 .exp-descripcion{
-    
+    font-size: small;
+    font-weight: 100;
+    color:#faf9fa;
 }
 .exp-fecha{
-
+    font-size: small;
+    font-weight: 100;
+    color:#faf9fa;
 }
 .envoltura-experiencia{
-    display: flex;
-    flex-wrap: wrap;
+    display: contents;
+    flex-wrap:wrap ;
     gap: 8px;
 }
 .habilidad{
